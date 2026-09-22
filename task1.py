@@ -5,6 +5,7 @@ import os
 from pydantic import BaseModel
 import docs
 from tabulate import tabulate
+import json
 
 load_dotenv()
 api_key=os.getenv("GROQ_API_KEY")
@@ -38,9 +39,6 @@ for document in docs.docs:
     print("Document ID:", document["id"])
     print("Source Type:", document["source_type"])
     print("Text:", document["text"])
-    print("-" * 50)
-
-
     prompt=f"""
 Extract every meaningful fact from the document.
 
@@ -79,19 +77,19 @@ Document:
                 "Validation:",
                 "PASS" if passed else "FAIL"
             )
-            print("-" * 30)
-
-
     except Exception as e:
         print(
             f"ERROR processing document {document['id']}: {e}"
         )
-
-        print("Continuing to next document...")
-        print("-" * 50)
 
 print(tabulate(
     rows,
     headers="keys",
     tablefmt="grid"
 ))
+
+
+with open("observations.json","w") as f:
+    json.dump(rows,f,indent=4)
+
+print("Observations saved successfully.")
