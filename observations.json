@@ -1,0 +1,205 @@
+[
+    {
+        "doc_id": "A",
+        "type": "order_number",
+        "value": "8823",
+        "evidence_span": "order #8823",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "A",
+        "type": "delivery_date",
+        "value": "2026-02-14",
+        "evidence_span": "delivery on 2026-02-14",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "A",
+        "type": "refund_amount",
+        "value": "86.40",
+        "evidence_span": "refund of $86.40",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "A",
+        "type": "refund_processed_date",
+        "value": "2026-02-14",
+        "evidence_span": "was processed the same day",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "A",
+        "type": "customer_confirmation",
+        "value": "confirmed",
+        "evidence_span": "the customer confirmed delivery",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "A",
+        "type": "sender",
+        "value": "Priya",
+        "evidence_span": "\u2014 Priya",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "B",
+        "type": "invoice_number",
+        "value": "INV-4471",
+        "evidence_span": "Invoice INV-4471.",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "B",
+        "type": "bill_to",
+        "value": "Meera Patel",
+        "evidence_span": "Bill to: Meera Patel.",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "B",
+        "type": "amount_due",
+        "value": "$1,240.50",
+        "evidence_span": "Amount due: $1,240.50.",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "B",
+        "type": "payment_received_date",
+        "value": "2026-03-02",
+        "evidence_span": "Payment received 2026-03-02.",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "C",
+        "type": "timestamp",
+        "value": "2026-03-05T09:12:03Z",
+        "evidence_span": "2026-03-05T09:12:03Z",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "C",
+        "type": "host",
+        "value": "api-3",
+        "evidence_span": "host=api-3",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "C",
+        "type": "status",
+        "value": "500",
+        "evidence_span": "status=500",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "C",
+        "type": "message",
+        "value": "timeout calling billing-service",
+        "evidence_span": "msg='timeout calling billing-service'",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "C",
+        "type": "retry_count",
+        "value": "2",
+        "evidence_span": "retry_count=2",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "D",
+        "type": "discussion_topic",
+        "value": "Q2 rollout",
+        "evidence_span": "the Q2 rollout",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "D",
+        "type": "discussion_time",
+        "value": "last week",
+        "evidence_span": "sometime last week",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "D",
+        "type": "agreement_action",
+        "value": "revisit budget numbers",
+        "evidence_span": "agreed to revisit budget numbers",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "D",
+        "type": "meeting_time",
+        "value": "before the board meeting",
+        "evidence_span": "before the board meeting",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "D",
+        "type": "meeting_name",
+        "value": "board meeting",
+        "evidence_span": "board meeting",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "E",
+        "type": "TicketNumber",
+        "value": "552",
+        "evidence_span": "Ticket #552",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "E",
+        "type": "CustomerName",
+        "value": "Raj Malhotra",
+        "evidence_span": "customer Raj Malhotra",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "E",
+        "type": "IssueDescription",
+        "value": "login failure",
+        "evidence_span": "reports login failure",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "E",
+        "type": "IssueDate",
+        "value": "since yesterday",
+        "evidence_span": "since yesterday",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "E",
+        "type": "Priority",
+        "value": "high",
+        "evidence_span": "Priority: high",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "E",
+        "type": "AssignedTeam",
+        "value": "support-tier2",
+        "evidence_span": "Assigned to: support-tier2",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "F",
+        "type": "person_name",
+        "value": "Raj Malhotra",
+        "evidence_span": "Raj Malhotra",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "F",
+        "type": "phone_number",
+        "value": "+91-98765-11111",
+        "evidence_span": "+91-98765-11111",
+        "pass/fail": "PASS"
+    },
+    {
+        "doc_id": "G",
+        "type": "contact_number",
+        "value": "+91-98765-22222",
+        "evidence_span": "Raj Malhotra's updated contact number is +91-98765-22222.",
+        "pass/fail": "PASS"
+    }
+]
